@@ -5,16 +5,16 @@ public class Member {
 	private String name;
 	private String nickname;
 	private Printer printer;
-	
+	// 기본 생성자
 	public Member() { }
-
+	// 생성자
 	public Member(String name, String nickname, Printer printer) {
 		super();
 		this.name = name;
 		this.nickname = nickname;
 		this.printer = printer;
 	}
-
+	// getter & setter
 	public String getName() {
 		return name;
 	}
